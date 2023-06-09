@@ -1,0 +1,619 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trek Easy</title>
+
+   
+
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+    
+<!-- header section starts  -->
+
+<header class="header">
+
+    <a href="#" class="logo"> <i class="fas fa-hiking"></i> Trek Easy. </a>
+
+    <nav class="navbar">
+        <div id="nav-close" class="fas fa-times"></div>
+        <a href="#home">home</a>
+        <a href="#about">about</a>
+        <a href="#shop">shop</a>
+        <a href="#packages">packages</a>
+        <a href="#reviews">reviews</a>
+        <a href="#blogs">blogs</a>
+    </nav>
+
+    <div class="icons">
+        <div id="menu-btn" class="fas fa-bars"></div>
+        <a href="#" class="fas fa-shopping-cart"></a>
+        <div id="search-btn" class="fas fa-search"></div>
+    </div>
+
+</header>
+
+<!-- header section ends -->
+
+<!-- search form  -->
+
+<div class="search-form">
+
+    <div id="close-search" class="fas fa-times"></div>
+
+    <form action="">
+        <input type="search" name="" placeholder="search here..." id="search-box">
+        <label for="search-box" class="fas fa-search"></label>
+    </form>
+</div>
+
+<!-- home section starts  -->
+
+<section class="home" id="home">
+
+    <div class="swiper home-slider">
+
+        <div class="swiper-wrapper">
+
+            <div class="swiper-slide">
+                <div class="box" style="background: url(images/home-bg-1.jpg) no-repeat;">
+                    <div class="content">
+                        <span>never stop</span>
+                        <h3>exploring</h3>
+                        <br>
+                    
+                    <form action="/login" method="post" onsubmit="return validate()">                        
+                        <input style="text-transform: lowercase;" class="signup" type="email" id="email" placeholder="Enter your email">
+                        <br>
+                        <br>
+                        <input class="signup" type="password" id="password" placeholder="Enter your password">
+                        <br>
+                        <br>
+                        <a href="/index2.html" class="btn"><button type="submit" class="loginbtn">login</button></a>
+                        <a href="/signup" class="btn">signup</a>
+                    </form>
+
+                    </div>
+                    
+                </div>
+            </div>= 
+            
+
+        </div>
+
+       
+
+    </div>
+
+</section>
+
+<!-- home section ends -->
+
+<!-- category section starts  -->
+
+<section class="category">
+
+    <h1 class="heading" id="idea">adventure idea!</h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <img src="images/category-1.jpg" alt="">
+            <h3>bungee jump</h3>
+            <p>Bungee jumping also spelled bungy jumping, is an activity that involves a person jumping from a great height while connected to a large elastic cord.</p>
+            <a href="https://www.bungeejumpingrishikesh.com/" class="btn">read more</a>
+        </div>
+
+        <div class="box">
+            <img src="images/category-2.jpg" alt="">
+            <h3>zip lines</h3>
+            <p>A zip-line, zip line, zip-wire, flying fox, or death slide is a pulley suspended on a cable, usually made of stainless steel, mounted on a slope.</p>
+            <a href="https://www.holidify.com/pages/best-places-to-zipline-in-india-2913.html" class="btn">read more</a>
+        </div>
+
+        <div class="box">
+            <img src="images/camping.jpg" alt="">
+            <h3>Camping</h3>
+            <p>Camping is an outdoor activity involving overnight stays away from home, either without shelter or using basic shelter such as a tent</p>
+            <a href="https://www.booking.com/campings/country/in.en-gb.html?aid=2037225&label=msn-QWbvc09SUFRYOv0jilOPdA-80127014473633%3Atikwd-80127124757694%3Aloc-90%3Aneo%3Amte%3Alp157557%3Adec%3Aqscamping%20india&sid=601044f8ee6ac9c505fc566a8ddccfc7&keep_landing=1&msclkid=ccbf4bc3e7f61f147e6928b1931ea035&utm_campaign=India&utm_medium=cpc&utm_source=bing&utm_term=QWbvc09SUFRYOv0jilOPdA&" class="btn">read more</a>
+        </div>
+
+        <div class="box">
+            <img src="images/hiking.webp" alt="">
+            <h3>Hiking</h3>
+            <p>hiking, walking in nature as a recreational activity. Especially among those with sedentary occupations, hiking is a natural exercise that promotes physical</p>
+            <a href="#packages" class="btn">read more</a>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- category section ends -->
+
+<!-- about section starts  -->
+
+<section class="about" id="about">
+
+    <div class="image">
+        <img src="images/rc 1.jpeg" alt="">
+    </div>
+
+    <div class="content">
+        <h3>memorable outdoor experiences</h3>
+        <p>Hiking is a popular outdoor activity worldwide and for people of all shapes, sizes, and ages. You can do it by yourself or with friends and family. You can even go camping after a hike if you want to immerse yourself in nature.</p>
+        <p>What’s great about hiking is that it can take you to some unique places that you wouldn’t be able to access any other way. With nothing but yourself and your trusty hiking poles, you’ll feel like an adventurer as soon as you reach the end of the trail.</p>
+        <a href="#" class="btn">read more</a>
+    </div>
+
+</section>
+
+<!-- about section ends -->
+
+<!-- shop section starts  -->
+
+<section class="shop" id="shop">
+
+    <h1 class="heading">featured products</h1>
+
+    <div class="swiper product-slider">
+
+        <div class="swiper-wrapper">
+
+            <div class="swiper-slide slide">
+                <div class="image">
+                    <img src="images/product-1.jpg" alt="">
+                    <div class="icons">
+                        <a href="#" class="fas fa-shopping-cart"></a>
+                
+                        <a href="" class="fas fa-share"></a>
+                    </div>
+                </div>
+                <div class="content">
+                    <h3>Rucksack</h3>
+                    <div class="price"> ₹2500 - ₹3000 </div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="swiper-slide slide">
+                <div class="image">
+                    <img src="images/product-2.jpg" alt="">
+                    <div class="icons">
+                        <a href="#" class="fas fa-shopping-cart"></a>
+                        <a href="" class="fas fa-share"></a>
+                    </div>
+                </div>
+                <div class="content">
+                    <h3>Knife</h3>
+                    <div class="price"> ₹400 - ₹500 </div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="swiper-slide slide">
+                <div class="image">
+                    <img src="images/product-3.jpg" alt="">
+                    <div class="icons">
+                        <a href="#" class="fas fa-shopping-cart"></a>
+                        
+                        <a href="" class="fas fa-share"></a> -->
+                    </div>
+                </div>
+                <div class="content">
+                    <h3>Goggles</h3>
+                    <div class="price"> ₹500 - ₹1000 </div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="swiper-slide slide">
+                <div class="image">
+                    <img src="images/product-4.jpg" alt="">
+                    <div class="icons">
+                        <a href="#" class="fas fa-shopping-cart"></a>
+                        <a href="" class="fas fa-share"></a>
+                    </div>
+                </div>
+                <div class="content">
+                    <h3>Shoes</h3>
+                    <div class="price"> ₹1500 - ₹3000 </div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="swiper-slide slide">
+                <div class="image">
+                    <img src="images/product-5.jpg" alt="">
+                    <div class="icons">
+                        <a href="#" class="fas fa-shopping-cart"></a>
+                        
+                        <a href="" class="fas fa-share"></a>
+                    </div>
+                </div>
+                <div class="content">
+                    <h3>Hooks</h3>
+                    <div class="price"> ₹150 - ₹400 </div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="swiper-slide slide">
+                <div class="image">
+                    <img src="images/product-6.jpg" alt="">
+                    <div class="icons">
+                        <a href="#" class="fas fa-shopping-cart"></a>
+                        
+                        <a href="" class="fas fa-share"></a>
+                    </div>
+                </div>
+                <div class="content">
+                    <h3>Barbeque Grill</h3>
+                    <div class="price"> ₹1500 - ₹2200 </div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+
+    </div>
+
+</section>
+
+<!-- shop section ends -->
+
+<!-- packages section starts  -->
+
+<section class="packages" id="packages">
+
+    <h1 class="heading">popular packages</h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <div class="image">
+                <img src="images/Ratangad.jpg" alt="">
+            </div>
+            <div class="content">
+                <h3>Ratangad</h3>
+                <p>The fort is 400 years old.[5] Ratangad was captured by Chhatrapati Shivaji Raje Bhosle.
+                    The fort is named after Ratnabai Tandal, who has a small temple inside the cave on the fort.
+                </p>
+                <div class="price">₹1200</div>
+                <a href="#" class="btn" id="book" >Book now</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image">
+                <img src="images/kokankada.jpg" alt="">
+            </div>
+            <div class="content">
+                <h3>Harishchandragad (Kokankada)</h3>
+                <p>This cliff faces west and looks down upon the Konkan. It provides views of the surrounding region. The cliff has an overhang, but has been climbed many times. Sometimes a circular rainbow  can be seen from this point.</p>
+                <div class="price">₹1500</div>
+                <a href="#" class="btn" id="book">Book now</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image">
+                <img src="images/salher2.jpg" alt="">
+            </div>
+            <div class="content">
+                <h3>Salher</h3>
+                <p>According to a legend, Parashurama did his Tapascharya at Salher Fort. After winning the earth and giving it as donation, he made land for himself to live in, by pushing the sea back with his arrows, right from this place.</p>
+                <div class="price">₹1000</div>
+                <a href="#" class="btn" id="book">Book now</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image">
+                <img src="images/harihar.jpeg" alt="">
+            </div>
+            <div class="content">
+                <h3>Harihar</h3>
+                <p>Harihar fort / Harshagad is a fort located 40 km from Nashik City, 48 km from Igatpuri, 40 km from Ghoti in Nashik district, of Maharashtra, India. It was constructed to look upon the trade route through Gonda Ghat. It receives many visitors because of its peculiar rock-cut steps.</p>
+                <div class="price">₹1000</div>
+                <a href="#" class="btn" id="book">Book now</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image">
+                <img src="images/bhairavgad.jpg" alt="">
+            </div>
+            <div class="content">
+                <h3>Bhairavgad</h3>
+                <p>Bhairavgad is a fort in India, twenty miles south-west of Patan, Satara district of Maharashtra.The fort is situated on a peak of Sahyadri range. The fort has a temple of Bhairav (Shiva); from which it gets its name. It is located at an altitude of about 1000 meters.</p>
+                <div class="price">₹1700</div>
+                <a href="#" class="btn" id="book">Book now</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image">
+                <img src="images/Rajgad.jpg" alt="">
+            </div>
+            <div class="content">
+                <h3>Rajgad</h3>
+                <p>The Rajgad Fort is located around 60 km (37 mi) to the south-west of Pune and about 15 km (9.3 mi) west of Nasrapur in the Sahyadris range. The fort lies 1,376 m (4,514 ft) above the sea level.</p>
+                <div class="price">₹2000</div>
+                <a href="#" class="btn" id="book">Book now</a>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- packages section ends -->
+
+<!-- reviews section starts  -->
+
+<section class="reviews" id="reviews">
+
+    <h1 class="heading">client's reviews</h1>
+
+    <div class="swiper review-slider">
+
+        <div class="swiper-wrapper">
+
+            <div class="swiper-slide slide">
+                <p class="text">I went to Harishchandragad last week with treakeasy and it was a great experience.There was a shivling in a cave and we meditate there for a while it was a great experience.</p>
+                <div class="user">
+                    <img src="images/rc 2.png" alt="">
+                    <div class="info">
+                        <h3>Ritvik Chavan</h3>
+                        <span>Trekker</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="swiper-slide slide">
+                <p class="text">I went to salher last week with treakeasy and it was a great experience.The tour guides of treakeasy are really awesome. we didnt get into any kind of trouble and we reach there in time and we were able to see the sunrise.</p>
+                <div class="user">
+                    <img src="images/pranav.jpeg" alt="">
+                    <div class="info">
+                        <h3>Pranav Bhadekar</h3>
+                        <span>Vlogger</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="swiper-slide slide">
+                <p class="text">I went to mohandar last week with treakeasy and it was a great experience, the place is really good and our guide told us about the history of mohandar which was quit fascinating . The tour guides of treakeasy are really awesome.</p>
+                <div class="user">
+                    <img src="images/Rushi.jpg" alt="">
+                    <div class="info">
+                        <h3>Rushikesh Gavali</h3>
+                        <span>Trekker</span>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- reviews section ends -->
+
+<!-- services section starts  -->
+
+<section class="services">
+
+    <h1 class="heading"> what we offer </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <img src="images/serv-1.png" alt="">
+            <h3>complete guide</h3>
+            <p>we provide complete guide to tourist from starting to returning from destination.</p>
+            <a href="#" class="btn">read more</a>
+        </div>
+
+        <div class="box">
+            <img src="images/serv-2.png" alt="">
+            <h3>custom packages</h3>
+            <p>we have custome packages corresponding to the distance of forts.</p>
+            <a href="#" class="btn">read more</a>
+        </div>
+
+        <div class="box">
+            <img src="images/serv-3.png" alt="">
+            <h3>family trips</h3>
+            <p>we also arrange family trips and provide them with a guide. we also provide them with a vehicle (minibus) if needed.</p>
+            <a href="#" class="btn">read more</a>
+        </div>
+
+        <div class="box">
+            <img src="images/serv-4.png" alt="">
+            <h3>train guides</h3>
+            <p>we also have train guide if the tour is too long to go in a bus.</p>
+            <a href="#" class="btn">read more</a>
+        </div>
+
+        <div class="box">
+            <img src="images/serv-5.png" alt="">
+            <h3>adventure trail</h3>
+            <p>The Adventure Trail is a 1 hour 10 minute drive each way and the hike itself takes around 3-4 hours, depending on fitness levels.</p>
+            <a href="#" class="btn">read more</a>
+        </div>
+
+        <div class="box">
+            <img src="images/serv-6.png" alt="">
+            <h3>various adventures</h3>
+            <p>we also have various adventure sports like camping, ziping,bungee jumping etc.</p>
+            <a href="#" class="btn">read more</a>
+        </div>
+        
+    </div>
+
+</section>
+
+<!-- services section ends -->
+
+<!-- blogs section starts  -->
+
+<section class="blogs" id="blogs">
+
+    <h1 class="heading"> our daily posts </h1>
+
+    <div class="swiper blogs-slider">
+
+        <div class="swiper-wrapper">
+
+            <div class="swiper-slide slide">
+                <img src="images/mohandar (1).jpeg" alt="">
+                <div class="icons">
+                    <a href="#"> <i class="fas fa-calendar"></i> 21st may, 2021 </a>
+                    <a href="#"> <i class="fas fa-user"></i> by admin </a>
+                </div>
+                <h3>Mohandar Fort</h3>
+                <p>Enjoy the journey and try to get better every day......</p>
+                <a href="#" class="btn">read more</a>
+            </div>
+
+            <div class="swiper-slide slide">
+                <img src="images/harihar rc.jpeg" alt="">
+                <div class="icons">
+                    <a href="#"> <i class="fas fa-calendar"></i> 21st may, 2021 </a>
+                    <a href="#"> <i class="fas fa-user"></i> by admin </a>
+                </div>
+                <h3>Harihar Fort</h3>
+                <p>The journey of a thousand miles begins with one step.</p>
+                <a href="#" class="btn">read more</a>
+            </div>
+
+            <div class="swiper-slide slide">
+                <img src="images/Pranav Bhadekar.jpeg" alt="">
+                <div class="icons">
+                    <a href="#"> <i class="fas fa-calendar"></i> 21st may, 2021 </a>
+                    <a href="#"> <i class="fas fa-user"></i> by admin </a>
+                </div>
+                <h3>Bramhagiri</h3>
+                <p>Nature does not hurry, yet everything is accomplished.</p>
+                <a href="#" class="btn">read more</a>
+            </div>
+
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- blogs section ends -->
+<!-- footer section starts  -->
+
+<section class="footer">
+
+    <div class="box-container">
+
+        <div class="box">
+            <h3>quick links</h3>
+            <a href="#home">home</a>
+            <a href="#about">about</a>
+            <a href="#shop">shop</a>
+            <a href="#packages">packages</a>
+            <a href="#reviews">reviews</a>
+            <a href="#blogs">blogs</a>
+        </div>
+
+        <div class="box">
+            <h3>extra links</h3>
+            <a href="#">my account</a>
+            <a href="#">my order</a>
+            <a href="#">my wishlist</a>
+            <a href="#">ask questions</a>
+            <a href="#">terms of use</a>
+            <a href="#">privacy policy</a>
+        </div>
+
+        <div class="box">
+            <h3>contact info</h3>
+            <a href="#"> <i class="fas fa-phone"></i> 9689480209 </a>
+            <a href="#"> <i class="fas fa-phone"></i> 9284135301 </a>
+            <a href="#"> <i class="fas fa-envelope"></i> rushikeshgavali35@gmail.com </a>
+            <a href="#"> <i class="fas fa-map"></i> Nashik, india - 400104 </a>
+        </div>
+
+        <div class="box">
+            <h3>follow us</h3>
+            <a href="#"> <i class="fab fa-facebook-f"></i> facebook </a>
+            <a href="#"> <i class="fab fa-twitter"></i> twitter </a>
+            <a href="#"> <i class="fab fa-instagram"></i> instagram </a>
+            <a href="#"> <i class="fab fa-linkedin"></i> linkedin </a>
+            <a href="#"> <i class="fab fa-github"></i> github </a>
+        </div>
+
+    </div>
+
+    <div class="credit">created by <span>Pranav, Rushikesh, Ritvik</span> | all rights reserved!</div>
+
+</section>
+
+<!-- footer section ends -->
+
+<script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+
+<!-- custom js file link  -->
+<script src="js/script.js"></script>
+<script src="app.js"></script>
+
+</body>
+</html>
